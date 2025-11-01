@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section id="beranda" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-600 via-purple-500 to-indigo-600 overflow-hidden">
+    <section id="beranda" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-900 to-blue-700 overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute transform rotate-45 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-white rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 transform translate-x-1/2 translate-y-1/2 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <a
           href="#kontak"
-          className="inline-block bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+          className="inline-block bg-white text-blue-900 px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
         >
           Daftar Sekarang
         </a>
